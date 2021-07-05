@@ -1,0 +1,92 @@
+/* border-image-source
+border-image-slice
+border-image-width
+border-image-outset
+border-image-repet */
+
+.div1 {
+  background-color: aquamarine;
+  border: 30px solid;
+  border-image-source: url(img/Floral_frame.jpg);
+  border-image-slice: 400;
+  border-image-width: 40px;
+  border-image-repeat: stretch;
+}
+.div2 {
+  background-color: rgb(43, 226, 186);
+  border: 30px solid;
+  border-image-source: url(img/blue-purple.jpg);
+  border-image-slice: 200;
+  border-image-width: 20px;
+  border-image-repeat: stretch round;
+}
+.div3 {
+  background-color: rgb(255, 214, 184);
+  border-image-slice: 14 11 14 11;
+  border-image-width: 20px 20px 20px 20px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: stretch stretch;
+  border-image-source: url("img/border-image-1.png");
+  border-style: solid;
+}
+.div4 {
+  background-color: crimson;
+  color: white;
+  border: 30px solid;
+  border-image-slice: 33% 44% 33% 44%;
+  border-image-width: 1.5em 1.5em 1.5em 1.5em;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: round round;
+  border-image-source: url("https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator/border-image-2.png");
+}
+.div5 {
+  /* background-color: darkgoldenrod; */
+  border-image-slice: 15 17 15 15 fill;
+  border-image-width: 10px 10px 10px 10px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: stretch round;
+  border-image-source: url("https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator/border-image-3.png");
+}
+.div6 {
+  background-color: rgb(73, 29, 29);
+  color: white;
+  border-image-slice: 13 13 13 13;
+  border-image-width: 13px 13px 13px 13px;
+  border-image-outset: 13px 13px 13px 13px;
+  border-image-repeat: repeat repeat;
+  border-image-source: url("https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator/border-image-4.png");
+  border-style: solid;
+}
+.div7 {
+  /* background-color: rgb(91, 255, 58); */
+  border-image-slice: 8 5 8 4;
+  border-image-width: 12px 12px 12px 12px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: stretch round;
+  border-image-source: url("https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator/border-image-5.png");
+  border-style: solid;
+}
+.div8 {
+  background-color: khaki;
+  border-image-slice: 28 50 42 50;
+  border-image-width: 42px 42px 42px 42px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: round round;
+  border-image-source: url("https://yari-demos.prod.mdn.mozit.cloud/en-US/docs/Web/CSS/CSS_Background_and_Borders/Border-image_generator/border-image-6.svg");
+  border-style: solid;
+}
+.div9 {
+  background-color: papayawhip;
+  border: 20px solid;
+  border-image: linear-gradient(to right, #00ffc8, #07d8e7, #273c75, #f1f2f6);
+  border-image-slice: 10;
+}
+
+.common-div {
+  width: 400px;
+  height: 200px;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 50px;
+  margin-bottom: 20px;
+}
